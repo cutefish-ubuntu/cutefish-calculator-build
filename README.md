@@ -12,8 +12,7 @@ sudo apt-get install cmake gcc qtbase5-dev qtdeclarative5-dev qml-module-qtquick
 
 ```
 git clone https://github.com/cutefishos/calculator.git
-mkdir ~/calculator/build
-cd ~/calculator/build
+mkdir ~/calculator/build && cd ~/calculator/build
 cmake ..
 make
 sudo make install
